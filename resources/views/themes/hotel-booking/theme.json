@@ -1,0 +1,40 @@
+{
+    "name": "Hotel Booking",
+    "slug": "hotel-booking",
+    "description": "Hotel Booking Theme",
+    "author": "Al Ahsan",
+    "version": "1.0.0",
+    "is_available": true,
+    "status": true,
+    "screenshot": [
+        {
+            "primary": "primary.png"
+        }
+    ],
+    "headerHook": [
+        {
+            "loadCoreStyle": true,
+            "style": [
+                "agency-main-style"
+            ],
+            "rtl_style": [
+                "agency-rtl"
+            ],
+            "script": [],
+            "blade": [],
+            "navbarArea": "navbar",
+            "breadcrumbArea": "breadcrumb"
+        }
+    ],
+    "footerHook": [
+        {
+            "loadCoreScript": true,
+            "style": [],
+            "script": [
+                "main"
+            ],
+            "blade": [],
+            "widgetArea": "widget-area"
+        }
+    ]
+}

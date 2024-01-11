@@ -1,0 +1,41 @@
+{
+    "name": "ExternalImport",
+    "alias": "externalimport",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ExternalImport\\Providers\\ExternalImportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "nazmartMetaData":{
+        "style":[], 
+        "admin_settings":{
+            "show_admin_landlord": true,
+            "show_admin_tenant": true,
+            "menu_item":[
+                {
+                    "id": "externalimport-settings",
+                    "label": "External Import",
+                    "route": "externalimport.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id": "cjdropshipping",
+                    "label": "CJ Dropshipping",
+                    "route": "externalimport.cjdropshipping",
+                    "parent": "externalimport-settings"
+                }, 
+                {
+                    "id": "ali-express",
+                    "label": "Ali Express",
+                    "route": "externalimport.aliexpress",
+                    "parent": "externalimport-settings"
+                }
+            ]
+        }
+    }
+}

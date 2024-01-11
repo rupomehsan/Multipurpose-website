@@ -1,0 +1,221 @@
+{
+    "name": "HotelBooking",
+    "alias": "hotelbooking",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\HotelBooking\\Providers\\HotelBookingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "nazmartMetaData": {
+        "admin_settings": {
+            "show_admin_landlord": false,
+            "show_admin_tenant": true,
+            "menu_item": [
+                {
+                    "id" : "hotel-manage-bed-type-menu",
+                    "label": "Bed Type",
+                    "route": "tenant.admin.bed-type.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-bed-type-all-menu",
+                    "label": "All Bed Types",
+                    "route": "tenant.admin.bed-type.index",
+                    "parent": "hotel-manage-bed-type-menu"
+                },
+                {
+                    "id" : "hotel-manage-bed-type-add-new-menu",
+                    "label": "Create Bed Type",
+                    "route": "tenant.admin.bed-type.create",
+                    "parent": "hotel-manage-bed-type-menu"
+                },
+                {
+                    "id" : "hotel-manage-amenities-menu",
+                    "label": "Amenity",
+                    "route": "tenant.admin.amenities.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-amenities-all-menu",
+                    "label": "All Amenities",
+                    "route": "tenant.admin.amenities.index",
+                    "parent": "hotel-manage-amenities-menu"
+                },
+                {
+                    "id" : "hotel-manage-amenities-add-new-menu",
+                    "label": "Create amenity",
+                    "route": "tenant.admin.amenities.create",
+                    "parent": "hotel-manage-amenities-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotels-menu",
+                    "label": "Hotel",
+                    "route": "tenant.admin.hotels.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-hotels-all-menu",
+                    "label": "All Hotel",
+                    "route": "tenant.admin.hotels.index",
+                    "parent": "hotel-manage-hotels-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotels-add-new-menu",
+                    "label": "Create Hotel",
+                    "route": "tenant.admin.hotels.create",
+                    "parent": "hotel-manage-hotels-menu"
+                },
+                {
+                    "id" : "hotel-manage-room_type-menu",
+                    "label": "Room Type",
+                    "route": "tenant.admin.room-types.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-room_type-all-menu",
+                    "label": "All Room Type",
+                    "route": "tenant.admin.room-types.index",
+                    "parent": "hotel-manage-room_type-menu"
+                },
+                {
+                    "id" : "hotel-manage-room_type-add-new-menu",
+                    "label": "Create Room",
+                    "route": "tenant.admin.room-types.create",
+                    "parent": "hotel-manage-room_type-menu"
+                },
+                {
+                    "id" : "hotel-manage-rooms-menu",
+                    "label": "Room",
+                    "route": "tenant.admin.rooms.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-rooms-all-menu",
+                    "label": "All Room",
+                    "route": "tenant.admin.rooms.index",
+                    "parent": "hotel-manage-rooms-menu"
+                },
+                {
+                    "id" : "hotel-manage-rooms-add-new-menu",
+                    "label": "Create Room",
+                    "route": "tenant.admin.rooms.create",
+                    "parent": "hotel-manage-rooms-menu"
+                },
+
+                {
+                    "id" : "hotel-manage-hotel-bookings-menu",
+                    "label": "HotelBookings",
+                    "route": "tenant.admin.hotel-bookings.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-hotel-bookings-all-menu",
+                    "label": "Pending Bookings",
+                    "route": "tenant.admin.hotel-bookings.index",
+                    "parent": "hotel-manage-hotel-bookings-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotel-bookings-approved-all-menu",
+                    "label": "Approved Bookings",
+                    "route": "tenant.admin.hotel-bookings.approved",
+                    "parent": "hotel-manage-hotel-bookings-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotel-bookings-cancel-requested-all-menu",
+                    "label": "Cancel Requested Bookings",
+                    "route": "tenant.admin.hotel-bookings.cancel-requested",
+                    "parent": "hotel-manage-hotel-bookings-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotel-bookings-canceled-all-menu",
+                    "label": "Canceled Bookings",
+                    "route": "tenant.admin.hotel-bookings.canceled",
+                    "parent": "hotel-manage-hotel-bookings-menu"
+                },
+                {
+                    "id" : "hotel-manage-hotel-bookings-add-new-menu",
+                    "label": "Create HotelBookings",
+                    "route": "tenant.admin.hotel-bookings.create",
+                    "parent": "hotel-manage-hotel-bookings-menu"
+                },
+
+                {
+                    "id" : "hotel-manage-room-book-inventories-all-menu",
+                    "label": "RoomBookInventories",
+                    "route": "tenant.admin.room-book-inventories.index",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+
+                {
+                    "id" : "hotel-manage-hotel-reviews-all-menu",
+                    "label": "Hotel Reviews",
+                    "route": "tenant.admin.all_hotel_review",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                },
+                {
+                    "id" : "hotel-manage-hotel-booking-report-menu",
+                    "label": "Booking Reports",
+                    "route": "tenant.admin.reports",
+                    "parent": null,
+                    "icon": "mdi mdi-settings"
+                }
+            ]
+        },
+        "header_hook": [],
+        "footer_hook": [],
+        "pageBuilderAddon": [
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Headers\\HeaderArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Amenities\\HotelAmenityArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Attractions\\AttractionArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Guests\\GuestArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Shots\\ShotArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Faq\\FaqArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\Blogs\\BlogArea",
+                "landlord": false,
+                "tenant": true
+            },
+            {
+                "addon": "Modules\\HotelBooking\\Http\\Pagebuilder\\Addons\\BrandLogos\\BrandLogoArea",
+                "landlord": false,
+                "tenant": true
+            }
+        ]
+    }
+}
